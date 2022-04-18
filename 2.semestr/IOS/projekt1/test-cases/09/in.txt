@@ -1,1 +1,0 @@
-./tradelog last-price stock-2.log

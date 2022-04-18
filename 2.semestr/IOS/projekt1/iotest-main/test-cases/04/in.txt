@@ -1,1 +1,0 @@
-./tradelog list-tick stock-2.log

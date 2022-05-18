@@ -1,0 +1,530 @@
+{
+    "classes": [
+        {
+            "operations": [
+                {
+                    "accessType": {
+                        "name": "public",
+                        "isUserDefined": false
+                    },
+                    "args": [{
+                        "name": "name",
+                        "type": {
+                            "name": "string",
+                            "isUserDefined": false
+                        }
+                    }],
+                    "name": "Element",
+                    "type": {
+                        "name": "Element",
+                        "isUserDefined": true
+                    }
+                },
+                {
+                    "accessType": {
+                        "name": "public",
+                        "isUserDefined": false
+                    },
+                    "args": [],
+                    "name": "getName",
+                    "type": {
+                        "name": "string",
+                        "isUserDefined": false
+                    }
+                },
+                {
+                    "accessType": {
+                        "name": "public",
+                        "isUserDefined": false
+                    },
+                    "args": [{
+                        "name": "name",
+                        "type": {
+                            "name": "string",
+                            "isUserDefined": false
+                        }
+                    }],
+                    "name": "rename",
+                    "type": {
+                        "name": "void",
+                        "isUserDefined": false
+                    }
+                }
+            ],
+            "sequencePosition": {
+                "x": 565.2000000000002,
+                "width": 240.8,
+                "y": 16.40000000000002,
+                "height": 164.8
+            },
+            "name": "Element",
+            "attributes": [{
+                "accessType": {
+                    "name": "public",
+                    "isUserDefined": false
+                },
+                "name": "name",
+                "type": {
+                    "name": "string",
+                    "isUserDefined": false
+                },
+                "isList": false
+            }],
+            "position": {
+                "x": 565.2000000000002,
+                "width": 240.8,
+                "y": 16.40000000000002,
+                "height": 164.8
+            }
+        },
+        {
+            "operations": [
+                {
+                    "accessType": {
+                        "name": "public",
+                        "isUserDefined": false
+                    },
+                    "args": [{
+                        "name": "name",
+                        "type": {
+                            "name": "string",
+                            "isUserDefined": false
+                        }
+                    }],
+                    "name": "UMClassifier",
+                    "type": {
+                        "name": "UMLClassifier",
+                        "isUserDefined": true
+                    }
+                },
+                {
+                    "accessType": {
+                        "name": "public",
+                        "isUserDefined": false
+                    },
+                    "args": [],
+                    "name": "isUserDefined",
+                    "type": {
+                        "name": "bool",
+                        "isUserDefined": false
+                    }
+                }
+            ],
+            "sequencePosition": {
+                "x": 523.6,
+                "width": 312,
+                "y": 273.2000000000001,
+                "height": 123.2
+            },
+            "name": "UMLClassifier",
+            "attributes": [],
+            "position": {
+                "x": 520.4,
+                "width": 312,
+                "y": 262.8000000000001,
+                "height": 123.2
+            }
+        },
+        {
+            "operations": [],
+            "sequencePosition": {
+                "x": 50,
+                "width": 30,
+                "y": 50,
+                "height": 50
+            },
+            "name": "Main",
+            "attributes": [],
+            "position": {
+                "x": 69.19999999999996,
+                "width": 206.4,
+                "y": 42.8,
+                "height": 80
+            }
+        },
+        {
+            "operations": [
+                {
+                    "accessType": {
+                        "name": "public",
+                        "isUserDefined": false
+                    },
+                    "args": [],
+                    "name": "getType",
+                    "type": {
+                        "name": "UMLClassifier",
+                        "isUserDefined": true
+                    }
+                },
+                {
+                    "accessType": {
+                        "name": "public",
+                        "isUserDefined": false
+                    },
+                    "args": [
+                        {
+                            "name": "name",
+                            "type": {
+                                "name": "string",
+                                "isUserDefined": false
+                            }
+                        },
+                        {
+                            "name": "type",
+                            "type": {
+                                "name": "UMLClassifier",
+                                "isUserDefined": true
+                            }
+                        }
+                    ],
+                    "name": "<<create>>",
+                    "type": {
+                        "name": "bool",
+                        "isUserDefined": false
+                    }
+                }
+            ],
+            "sequencePosition": {
+                "x": 800,
+                "width": 90,
+                "y": 50,
+                "height": 50
+            },
+            "name": "UMLAttribute",
+            "attributes": [{
+                "accessType": {
+                    "name": "public",
+                    "isUserDefined": false
+                },
+                "name": "type",
+                "type": {
+                    "name": "UMLClassifier",
+                    "isUserDefined": true
+                },
+                "isList": false
+            }],
+            "position": {
+                "x": 39.59999999999994,
+                "width": 384,
+                "y": 266,
+                "height": 144
+            }
+        },
+        {
+            "operations": [
+                {
+                    "accessType": {
+                        "name": "public",
+                        "isUserDefined": false
+                    },
+                    "args": [{
+                        "name": "name",
+                        "type": {
+                            "name": "string",
+                            "isUserDefined": false
+                        }
+                    }],
+                    "name": "createClass",
+                    "type": {
+                        "name": "UMLClass",
+                        "isUserDefined": true
+                    }
+                },
+                {
+                    "accessType": {
+                        "name": "public",
+                        "isUserDefined": false
+                    },
+                    "args": [{
+                        "name": "name",
+                        "type": {
+                            "name": "string",
+                            "isUserDefined": false
+                        }
+                    }],
+                    "name": "classifierForName",
+                    "type": {
+                        "name": "UMLClassifier",
+                        "isUserDefined": true
+                    }
+                }
+            ],
+            "sequencePosition": {
+                "x": 300,
+                "width": 90,
+                "y": 50,
+                "height": 50
+            },
+            "name": "ClassDiagram",
+            "attributes": [{
+                "accessType": {
+                    "name": "public",
+                    "isUserDefined": false
+                },
+                "name": "classes",
+                "type": {
+                    "name": "UMLClass",
+                    "isUserDefined": true
+                },
+                "isList": true
+            }],
+            "position": {
+                "x": 901.2000000000002,
+                "width": 344.8,
+                "y": 257.9999999999999,
+                "height": 144
+            }
+        },
+        {
+            "operations": [
+                {
+                    "accessType": {
+                        "name": "public",
+                        "isUserDefined": false
+                    },
+                    "args": [{
+                        "name": "attr",
+                        "type": {
+                            "name": "UMLAttribute",
+                            "isUserDefined": true
+                        }
+                    }],
+                    "name": "addAttribute",
+                    "type": {
+                        "name": "bool",
+                        "isUserDefined": false
+                    }
+                },
+                {
+                    "accessType": {
+                        "name": "public",
+                        "isUserDefined": false
+                    },
+                    "args": [{
+                        "name": "attr",
+                        "type": {
+                            "name": "UMLAttribute",
+                            "isUserDefined": true
+                        }
+                    }],
+                    "name": "getAttrPosition",
+                    "type": {
+                        "name": "int",
+                        "isUserDefined": false
+                    }
+                },
+                {
+                    "accessType": {
+                        "name": "public",
+                        "isUserDefined": false
+                    },
+                    "args": [{
+                        "name": "name",
+                        "type": {
+                            "name": "string",
+                            "isUserDefined": false
+                        }
+                    }],
+                    "name": "<<create>>",
+                    "type": {
+                        "name": "bool",
+                        "isUserDefined": false
+                    }
+                }
+            ],
+            "sequencePosition": {
+                "x": 550,
+                "width": 60,
+                "y": 50,
+                "height": 50
+            },
+            "name": "UMLClass",
+            "attributes": [{
+                "accessType": {
+                    "name": "public",
+                    "isUserDefined": false
+                },
+                "name": "attributes",
+                "type": {
+                    "name": "UMLAttribute",
+                    "isUserDefined": true
+                },
+                "isList": true
+            }],
+            "position": {
+                "x": 520.4,
+                "width": 305.6,
+                "y": 490.8000000000002,
+                "height": 164.8
+            }
+        }
+    ],
+    "sequenceDiagrams": [{
+        "classes": [
+            "Main",
+            "ClassDiagram",
+            "UMLClass",
+            "UMLAttribute"
+        ],
+        "name": "Ija-1",
+        "messages": [
+            {
+                "typeOfMessage": "Full",
+                "from": "Main",
+                "to": "ClassDiagram",
+                "message": "createClass( \"c1\" ) : UMLClass",
+                "operation": "createClass"
+            },
+            {
+                "typeOfMessage": "Full",
+                "from": "ClassDiagram",
+                "to": "UMLClass",
+                "message": "<<create>>( \"c1\" ) : bool",
+                "operation": "<<create>>"
+            },
+            {
+                "typeOfMessage": "Dashed",
+                "from": "ClassDiagram",
+                "to": "Main",
+                "message": "Return",
+                "operation": "Return"
+            },
+            {
+                "typeOfMessage": "Full",
+                "from": "Main",
+                "to": "ClassDiagram",
+                "message": "classifierForName( \"cInt\" ) : UMLClassifier",
+                "operation": "classifierForName"
+            },
+            {
+                "typeOfMessage": "Dashed",
+                "from": "ClassDiagram",
+                "to": "Main",
+                "message": "Return",
+                "operation": "Return"
+            },
+            {
+                "typeOfMessage": "Full",
+                "from": "Main",
+                "to": "UMLAttribute",
+                "message": "<<create>>( \"a1\", \"cInt\" ) : bool",
+                "operation": "<<create>>"
+            },
+            {
+                "typeOfMessage": "Full",
+                "from": "Main",
+                "to": "UMLClass",
+                "message": "addAttribute( \"a1\" ) : bool",
+                "operation": "addAttribute"
+            },
+            {
+                "typeOfMessage": "Dashed",
+                "from": "UMLClass",
+                "to": "Main",
+                "message": "Return",
+                "operation": "Return"
+            },
+            {
+                "typeOfMessage": "Full",
+                "from": "Main",
+                "to": "UMLAttribute",
+                "message": "isAbstract(  ) : void",
+                "operation": "isAbstract"
+            }
+        ]
+    }],
+    "name": "Ahoj",
+    "classifiers": [
+        {
+            "name": "string",
+            "isUserDefined": false
+        },
+        {
+            "name": "void",
+            "isUserDefined": false
+        },
+        {
+            "name": "int",
+            "isUserDefined": false
+        },
+        {
+            "name": "bool",
+            "isUserDefined": false
+        },
+        {
+            "name": "Element",
+            "isUserDefined": true
+        },
+        {
+            "name": "UMLClassifier",
+            "isUserDefined": true
+        },
+        {
+            "name": "Main",
+            "isUserDefined": true
+        },
+        {
+            "name": "UMLAttribute",
+            "isUserDefined": true
+        },
+        {
+            "name": "ClassDiagram",
+            "isUserDefined": true
+        },
+        {
+            "name": "UMLClass",
+            "isUserDefined": true
+        }
+    ],
+    "relations": [
+        {
+            "valueTo": "",
+            "classNameFrom": "UMLAttribute",
+            "classNameTo": "Element",
+            "type": "generalization",
+            "valueFrom": ""
+        },
+        {
+            "valueTo": "",
+            "classNameFrom": "UMLClassifier",
+            "classNameTo": "Element",
+            "type": "generalization",
+            "valueFrom": ""
+        },
+        {
+            "valueTo": "",
+            "classNameFrom": "ClassDiagram",
+            "classNameTo": "Element",
+            "type": "generalization",
+            "valueFrom": ""
+        },
+        {
+            "valueTo": "",
+            "classNameFrom": "UMLAttribute",
+            "classNameTo": "UMLClassifier",
+            "type": "association",
+            "valueFrom": ""
+        },
+        {
+            "valueTo": "",
+            "classNameFrom": "ClassDiagram",
+            "classNameTo": "UMLClassifier",
+            "type": "association",
+            "valueFrom": ""
+        },
+        {
+            "valueTo": "",
+            "classNameFrom": "UMLClass",
+            "classNameTo": "UMLClassifier",
+            "type": "generalization",
+            "valueFrom": ""
+        },
+        {
+            "valueTo": "",
+            "classNameFrom": "UMLClass",
+            "classNameTo": "UMLAttribute",
+            "type": "association",
+            "valueFrom": ""
+        }
+    ]
+}
